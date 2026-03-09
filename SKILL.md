@@ -4,7 +4,8 @@ description: Validates DDEX ERN XML files against official schemas. Checks struc
 license: MIT
 metadata:
   author: Music Tech Lab
-  version: 1.0.0
+  version: 0.1.0
+  status: proof-of-concept
 ---
 
 # DDEX ERN Validator

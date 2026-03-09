@@ -1,6 +1,16 @@
 # ddex-validate
 
+> **Proof of Concept** — This skill is an experiment in using AI to streamline daily routines when working with music industry data. Instead of switching to web validators or remembering CLI flags, you validate DDEX files from the same conversation where you're already working. It's a small example of a bigger idea: embedding domain expertise directly into AI workflows so that repetitive data checks happen automatically, not manually.
+
 A [Claude skill](https://docs.anthropic.com/en/docs/claude-code/skills) that validates DDEX ERN (Electronic Release Notification) XML files against official schemas — catching music metadata errors before they reach distributors.
+
+## Why this exists
+
+Music labels and distributors deal with DDEX XML files daily. Every release submission requires valid metadata — ISRCs, UPCs, territory codes, contributor roles, deal terms. Getting it wrong means rejected deliveries and delayed releases.
+
+The validation itself is well-defined and mechanical: parse XML, check against a schema, verify field formats. That makes it a perfect candidate for an AI skill — let the machine handle the tedious checks while you focus on the music.
+
+This proof of concept explores how Claude skills can turn domain knowledge (DDEX standards, distributor requirements, common pitfalls) into reusable, on-demand expertise that activates right when you need it.
 
 ## What it does
 
@@ -111,6 +121,18 @@ ddex-validate/
 **ERN** (Electronic Release Notification) is the most common DDEX message type — it describes a music release including tracks, artwork, contributors, territory rights, and commercial terms.
 
 Getting ERN metadata wrong means your release gets rejected by the distributor or DSP, delaying your release date. This skill catches those errors before submission.
+
+## Where this is heading
+
+This is a proof of concept — the first step in exploring how AI skills can fit into music data workflows. Some ideas we're considering:
+
+- **Batch validation** — process a directory of ERN files before a bulk delivery
+- **Auto-fix mode** — instead of just reporting errors, rewrite the XML with fixes applied
+- **DSRF support** — extend to Digital Sales Report Format (flat file) validation
+- **MCP integration** — connect to distributor APIs to validate _and_ submit in one workflow
+- **Royalty data checks** — apply the same pattern to streaming reports and financial data
+
+If you work with music metadata and have ideas for what an AI-powered validation workflow should look like, we'd love to hear from you.
 
 ## Contributing
 
