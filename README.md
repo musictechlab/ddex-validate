@@ -1,5 +1,7 @@
 # ddex-validate
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > **Proof of Concept** — This skill is an experiment in using AI to streamline daily routines when working with music industry data. Instead of switching to web validators or remembering CLI flags, you validate DDEX files from the same conversation where you're already working. It's a small example of a bigger idea: embedding domain expertise directly into AI workflows so that repetitive data checks happen automatically, not manually.
 
 A [Claude skill](https://docs.anthropic.com/en/docs/claude-code/skills) that validates DDEX ERN (Electronic Release Notification) XML files against official schemas — catching music metadata errors before they reach distributors.
@@ -136,7 +138,11 @@ If you work with music metadata and have ideas for what an AI-powered validation
 
 ## Contributing
 
-Issues and PRs welcome. If you work with DDEX and encounter validation edge cases, please open an issue with a (sanitized) XML sample.
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
+
+## Security
+
+To report a vulnerability, please see [SECURITY.md](SECURITY.md).
 
 ## License
 
@@ -144,4 +150,12 @@ MIT
 
 ---
 
-Built by [Music Tech Lab](https://musictechlab.io) — tools for the music industry.
+<div align="center">
+  MusicTech Lab - Rockstars Developers dedicated to the Music Industry<br>
+  <a href="https://musictechlab.io">Website</a>
+  <span> | </span>
+  <a href="https://linkedin.com/company/musictechlab">LinkedIn</a>
+  <span> | </span>
+  <a href="https://musictechlab.io/contact">Let's talk</a><br>
+  Crafted by <a href="https://musictechlab.io">musictechlab.io</a>
+</div>
