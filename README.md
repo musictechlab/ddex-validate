@@ -1,6 +1,7 @@
 # ddex-validate
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Built by MusicTech Lab](https://musictechlab.io/oss/build-by-musictechlab.io.svg)](https://musictechlab.io)
 
 > **Proof of Concept** — This skill is an experiment in using AI to streamline daily routines when working with music industry data. Instead of switching to web validators or remembering CLI flags, you validate DDEX files from the same conversation where you're already working. It's a small example of a bigger idea: embedding domain expertise directly into AI workflows so that repetitive data checks happen automatically, not manually.
 
